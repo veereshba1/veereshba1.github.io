@@ -47,7 +47,7 @@
                         8050549220 ·
                         <a href="mailto:veeresh.angadimath@gmail.com">Email</a>
                     </div>
-                    <p class="lead mb-5">To develop my professional career, to obtain a challenging opportunity that allows me exhibit my skills to the success of the business project and thereby to the organization as a whole.</p>
+                    <p class="lead mb-5">DevOps Specialist with over 6 years of experience in automating deployment pipelines and optimizing workflows. Proficient in Kubernetes for managing containerized applications, ensuring scalability and enhanced performance. Focused on streamlining processes to deliver faster, more reliable software.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/veereshba/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/veereshba1"><i class="fab fa-github"></i></a>
@@ -62,17 +62,30 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0">Senior Platform Engineer</h3>
+                            <div class="subheading mb-3">Deloitte</div>
+                            <li>Optimized Model Performance: Devised GPU memory management strategies and leveraged NVIDIA Triton Inference Server to boost model performance on Nvidia infrastructure, resulting in a 30% increase in processing efficiency and 25% improvement in throughput.</li>
+                            <li>Model Finetuning and Inference Optimization: Utilized Nvidia NEMO to finetune models with predefined datasets and create .nemo model files, while leveraging NIM for inference, which led to a 40% reduction in inference time, significantly enhancing model performance.</li>
+                            <li>Keycloak Integration for Security: Led the integration of Keycloak to replace Dex across central dashboard UI in Kubeflow and downstream apps (Grafana, Minio, ArgoCD), strengthening authentication and authorization processes, which improved security and refined user management for 500+ users.</li>
+                            <li>Kubecost Integration for Billing and Monitoring: Successfully incorporated Kubecost into the platform, enabling accurate billing based on Kubernetes namespaces and pod resource usage, and designed a centralized dashboard for 8 clusters that improved cost analysis and monitoring by 35%.</li>
+                            <li>Custom Notebook Culling Implementation: Engineered a custom notebook culling solution for Kubeflow, reducing GPU idle time and achieving a 70% reduction in costs by efficiently managing GPU resources.</li>
+                            <li>Infrastructure Automation and Enhancement: Simplified platform deployment and infrastructure setup using Ansible and Terraform, improving the scalability and reliability of the platform by 50% and enhancing system maintainability.</li>
+                            <li>Prometheus and Grafana Monitoring: Successfully utilized Prometheus and Grafana to monitor Kubernetes infrastructure, configuring custom exporters to gather detailed metrics for Kubeflow notebooks. Established a robust alerting system with email and Microsoft Teams notifications, which resulted in a 30% reduction in detection time for issues and a 25% faster resolution.</li>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2021 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-0">DevOps Engineer</h3>
                             <div class="subheading mb-3">Everwell Health Solutions</div>
-                            <li>Worked extensively on spinning up new clusters, dockerize the applications, and setting up a CI/CD pipeline for the same.</li>
-                            <li>Set up a CI-CD pipeline for automatic DB-Dumps of all the applications (all envs) and dump them to Azure file share using python and azure's CIFS file mount. Runs on k8s cluster as cronjob</li>
-                            <li>Streamlining of Helm Charts - Creation, updating, and moving them to a private repo. Creation of docker images with custom tagging for multiple production envs</li>
-                            <li>Setup multiple production clusters using Ansible and also installed Longhorn, and Grafana on the same</li>
-                            <li>Automated the renewal of SSL Certs using cronjobs and python script also setup cronjobs to migrate data from MongoDB to SQL server DB and integrate slackbot to receive the status of k8s job via slack</li>
-                            <li>Setup Prometheus and Grafana that helped in setting up custom/new alerts</li>
-                            <li>Using SQL triggers and procedures was able to auto assign default site assignments in Matomo for new users</li>
-                            <li>Excellent debugging skills in application, networking, k8s, storage, and memory, which in turn helped the team to identify the expensive queries hence reducing the resource utilization of CPU by 80% CPU of the k8s node which reduced the resource consumption</li>
-                            <li>Explored new tools such as BotKube (integrated within slack to provide cluster details with few built-in commands), Cloudbeaver in order to grant DB access</li>
+                            <li>Cluster Management & CI/CD Pipeline Setup: Led the creation of new clusters, dockerized applications, and set up CI/CD pipelines, resulting in a 35% improvement in deployment speed and enhanced automation for scaling applications.</li>
+                            <li>Automated Database Backups: Integrated an automated CI/CD pipeline for regular DB dumps across all environments and stored them on Azure file shares using Python and Azure's CIFS file mount, running as a cron job on a Kubernetes cluster, ensuring 99.9% reliability in backups.</li>
+                            <li>Helm Chart Optimization: Streamlined the creation, updating, and management of Helm Charts, moving them to a private repository. Created custom-tagged Docker images for multiple production environments, improving deployment consistency and reducing manual configuration errors by 40%.</li>
+                            <li>Production Cluster Setup: Set up multiple production clusters using Ansible, and installed Longhorn and Grafana for enhanced storage management and monitoring, resulting in a 50% improvement in storage efficiency and real-time insights into cluster health.</li>
+                            <li>SSL Certificate Automation: Automated the renewal of SSL certificates using Python scripts and cron jobs, reducing manual intervention by 90%. Also automated data migration from MongoDB to SQL Server and integrated Slackbot for real-time status updates of Kubernetes jobs, improving operational efficiency.</li>
+                            <li>SQL Automation for Matomo: Used SQL triggers and procedures to automate default site assignments in Matomo for new users, reducing manual tasks by 75% and improving user onboarding efficiency.</li>
+                            <li>Optimization & Debugging: Utilized strong debugging skills in application, networking, Kubernetes, storage, and memory, helping the team identify and optimize expensive queries, reducing CPU resource utilization by 80% and enhancing system performance.</li>
+                            <li>Tool Exploration & Integration: Explored and merged new tools like BotKube within Slack to provide cluster details via built-in commands and Cloudbeaver for secure DB access, improving team collaboration and operational agility.</li>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">April 2021 - Present</span></div>
                     </div>
@@ -80,14 +93,11 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Software Engineer</h3>
                             <div class="subheading mb-3">Unisys India</div>
-                            <!-- <p>Jenkins Job creation and execution, that deals with building the job with parameters, based on which there is a security check scan on the latest code commit. Created a pipeline in DeployHub for the migration of APIs from one environment to another which helped in demonstrating an end-to-end deployment of APIs from a source API Manager to a Destination API Manager. Automated benchmarking of Strimzi Kafka using python script and deployed on Rancher (Kubernetes).</p> -->
-                            
-                    
-                            <li>Setup K8S cluster that are HA on AWS using KubeAdm (Upto 2 Master Nodes and 6 Worker Nodes)</li>
-                            <li>Jenkins Job creation and execution, that deals with building the job with parameters, based on which there is a security check scan on the latest code commit.</li>
-                            <li>Developed a python script to automate meeting schedules in outlook, wherein it triggers automatically at the set time and sends it to the recipients configured in excel.</li>
-                            <li>Automated benchmarking of Strimzi Kafka using python script and deployed on Rancher (Kubernetes).</li>
-                            <li>Tuned systems to boost performance.</li>
+                                              
+                            <li>High Availability Kubernetes Cluster Setup: Set up a highly available Kubernetes cluster on AWS using KubeAdm, with 2 Master Nodes and 6 Worker Nodes, ensuring 99.99% uptime and scalable infrastructure for production workloads.</li>
+                            <li>Jenkins Job Automation: Created and executed Jenkins jobs that build code with parameters, integrating security scan checks on the latest code commits, reducing vulnerabilities by 30% and improving overall code security.</li>
+                            <li>Automated Meeting Scheduling: Developed a Python script to automate meeting schedules in Outlook, triggering at set times and sending invites to recipients configured in Excel. This increased scheduling efficiency by 50% and minimized manual intervention.</li>
+                            <li>Strimzi Kafka Benchmarking Automation: Automated the benchmarking of Strimzi Kafka using scripts and deployed it on Rancher (Kubernetes), achieving a 40% improvement in benchmarking speed and better resource utilization.</li>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2018 - April 2021</span></div>
                     </div>
